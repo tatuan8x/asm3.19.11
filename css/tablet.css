@@ -1,0 +1,223 @@
+@media screen and (max-width: 992px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+                
+    }
+    .body {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+    section {
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+    h2 {
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+
+  /* header */
+    header {
+        position: relative;
+        height: 20rem;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.609)
+        ),
+        url("../images/banner.jpg");
+        background-size: cover;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 1.1;
+        font-weight: 500;
+      }
+      header p {
+        font-size: 8px;
+      }
+      .text-banner {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        text-align: center;
+        color: #f7f7f7;
+      }
+    
+
+
+  /* nav bar */    
+      .nav-link {
+        border-left: 1px solid #e9ecef;
+        text-transform: uppercase;
+      }
+      .nav-item {
+        width: 20%;
+        border-left: 1px solid #e9ecef;
+        text-transform: uppercase;
+      }
+      i {
+        color: #199cdb;
+      }
+      .avatar {
+        display: none;
+      }
+
+  /* mục tiêu - thông tin */
+  
+      
+
+  /* kỹ năng - cá nhân */
+      
+      .gr-bd {
+        height: 650px;
+      }
+      .grid-icon {
+        position: relative;
+        font-size: 36px;
+        float: right;
+      }
+      .list-content { 
+        padding: 20px;
+        position: relative;
+        list-style: none;
+        line-height: 1.5;
+      }
+      .list-content li::before {
+        content: '';
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        left: 0px;
+        background-color: #199cdb;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      .timelineex {
+        background-color: #199cdb;
+        color: white;
+        padding: 1px 9px;
+        border-radius: 5px;
+      }
+      .skill {
+        position: relative;
+        top: 30px;
+      }
+      .skill p {
+        padding: 5px 0;
+      }
+      .b {
+        background: #199cdb;
+        display: inline-block;
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+      }
+      .gr {
+        background: #e6e5e5;
+        display: inline-block;
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+      }
+      .like {
+        list-style: none;
+        position: relative;
+        top: 30px;
+        
+      }
+      .like li {
+        float: left;
+        padding: 0 5px;
+      }
+      .like-icon {
+        position: relative;
+        top: 30px;
+        border: 1px solid #199cdb;
+        color: #199cdb;
+        border-radius: 50%;
+        padding: 9px;
+        font-size: 18px;
+        margin: 10px 13px;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        }
+
+
+  /* CHỨNG CHỈ- GIẢI THƯỞNG */
+      .cert-img {
+        width: 250px;
+        display: inline;
+        
+      }
+      .cert-text {
+        margin: 30px 0;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+      }
+      .bd-cert {
+        border-bottom: 1px solid #d6c08d;
+        height: auto;
+      }
+      .cert {
+        height: auto;
+      }
+      .bd-left {
+        border-bottom: 1px solid #d6c08d;
+      }
+
+  /* DỰ ÁN */
+    .card-img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .card-title {
+      text-transform: uppercase;
+      padding: 15px;
+      border-bottom: 1px solid #d3d3d3;
+    }
+    .card-title2 {
+      padding: 10px;
+      border-bottom: 1px solid #d3d3d3;
+    }
+    .card-icon {
+      font-size: 12px;
+      padding-right: 0px;
+    }
+    .tb-info {
+      width: 100%;
+      border-collapse: collapse;
+      height: 255px;
+    }
+    .tb-info tr td {
+      padding: 10px;
+      border-bottom: 1px solid #d3d3d3;
+      line-height: 1.5;
+    }
+    .td1 {
+      width: 30%;
+      vertical-align: top; 
+    }
+
+  /* FOOTER */
+    a:link {
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .footer-icon {
+      font-size: 18px;
+      color: #199cdb;
+      padding: 0 3px;
+    }
+}
